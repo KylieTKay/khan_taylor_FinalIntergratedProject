@@ -1,0 +1,512 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 65px;
+    color: white;
+    line-height: 90px;
+    margin-bottom: 20px;
+    background-color: #4eb7485e;
+    text-align: left;
+
+}
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color:  #d93838;
+    font-size: 45px;
+    line-height: 60px;
+    margin-bottom: 15px;
+    /* text-align: left; */
+}
+
+h3 {
+    font-family: 'Comfortaa', cursive;
+    color:  #d93838;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    /* text-align: left; */
+}
+
+li {
+    list-style: none;
+}
+
+p, input, a, textarea, label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+input, textarea, button {
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+i { color: inherit;}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* p { font-size: 35px;} */
+
+/* header */
+
+.headerCon {height: 120px; }
+
+.mainNav {
+    margin: 35px 0 25px 0px;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+}
+
+#logo { margin-top: 25px;}
+
+
+#hamburger {display: none;}
+
+
+menu {
+    list-style-type: none;
+    display: inline-flex;
+    padding-inline-start: 0;
+}
+
+menu li { margin-right: 30px;}
+
+
+/* Main */
+
+/* *HOME PAGE* */
+
+/* Hero */
+
+#homeHero {
+    background: url(../images/heroImage.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+/* Backdrop */
+
+.backdrop { 
+    background: url(../images/Lg-Background.png) no-repeat;
+    background-size: cover;
+}
+
+/* *Info* */
+
+.quatroInfoCon  img {
+    width: 139px;
+    height: 580px;
+}
+
+/* Shop */
+.flavHero {
+    background: url(../images/flavour.png) no-repeat;
+    background-size: cover;
+    height: 1024px;
+
+}
+
+/* *Sustain* */
+.sustainCon {
+    background: url(../images/sustainBackImg.png) no-repeat;
+    background-size: cover;
+    height: 1024px;
+
+}
+
+/* *CONTACT PAGE* */
+
+/* *Hero* */
+
+.mainHero { 
+    height: 825px; 
+    /* margin-top: -120px; */
+}
+
+#contactHero {
+    background: url(../images/hero.svg) no-repeat;
+    background-size: cover;
+}
+
+.heroOverlay {
+    padding-top: 190px;
+    padding-bottom: 310px;
+}
+
+.heroOverlay h1, .heroOverlay p { 
+    text-align: center;
+}
+
+/* *MISSION* */
+
+#missionText { 
+    margin-top: 40px; 
+    margin-bottom: 100px; 
+}
+
+#missionText h3, #missionText p { 
+    text-align: left;
+}
+
+#missionText h3 { margin-bottom: 35px; }
+
+#missionCon { padding-bottom: 70px; }
+
+
+/* *QnA* */
+
+#QnACon { 
+    padding-top: 80px; 
+    padding-bottom: 60px; 
+}
+
+.Q {font-weight: 700;}
+
+.whitebumper {
+    border-bottom: solid white 3px; 
+    margin-bottom: 35px; 
+}
+
+/* *Contact Form* */
+
+#contactSpace {
+    margin: 55px auto;
+}
+
+.contactCon {
+    margin: 0 -30px;
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+    grid-column-gap: 30px;
+    max-width: 1030px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#contactOverlay {display: none;}
+
+#contactForm form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));    
+    grid-column-gap: 10px;
+}
+#contactForm div {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#contactForm div a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 20px;
+}
+
+#contactForm form textarea {
+    height: 93px;
+}
+
+#contactForm form #nameInput, #emailInput, textarea {
+    border-radius: 1rem;
+}
+
+.map {
+    background: url(../images/map.png) no-repeat;
+    background-size: cover;
+}
+
+/* footer */
+
+#footerCon{
+    padding: 285px 0 0 0;
+    background: url(../images/subscribe.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#subCon {
+    margin-bottom: 200px;
+}
+
+#subCon p {
+    margin: 25px 0;
+}
+
+
+#subCon form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#subCon form input {
+    border-radius: 3rem 0 0 3rem;
+    margin: 0;
+}
+#subCon form button {
+    border-radius: 0 3rem 3rem 0;
+    padding: 19px 20px;
+    margin: 0;
+}
+
+#copyrights {margin-top: 30px;}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    margin:30px 70px;
+    justify-content: space-around;
+}
+
+/* Shop Page */
+
+#shopHero {
+    background: url(../images/shopHero.gif)no-repeat;
+    background-size: cover;
+}
+
+#flavour button:hover {
+    height: 350px;
+    width: 350px;
+}
+
+#flavour1 {
+    background: url(../images/LgUno.jpg) no-repeat;
+    cursor: pointer;
+    height: 370px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+#flavour2 {
+    background: url(../images/LgDos.jpg) no-repeat;
+    cursor: pointer;
+    height: 370px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+#flavour3 {
+    background: url(../images/LgTres.jpg) no-repeat;
+    cursor: pointer;
+    height: 370px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+#flavour4 {
+    background: url(../images/LgQuatro.jpg) no-repeat;
+    cursor: pointer;
+    height: 370px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+#flavour5 {
+    background: url(../images/LgLito.jpg) no-repeat;
+    cursor: pointer;
+    height: 370px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#flavourInfo{
+    background-color: orange;
+}
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        /* font-size: 20px; */
+    }
+    
+    h3 {
+        /* font-size: 17px; */
+    }
+    
+    input, textarea, button {
+        /* font-size: 15px; */
+    }
+
+    
+    /* p { font-size: 15px;} */
+
+    .mobileHidden {
+        display: none;
+    }
+
+
+/* header */
+
+    #homeHero {
+        background: url(../images/heroImageMobile.png) no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    .headerCon {
+        height: fit-content;
+    }
+
+    #logo {height: 20vh;}
+
+    #hamburger {
+        display: block;
+        transition: all .5s ease;
+        border: none;  
+        height: fit-content;
+        width: fit-content;
+        margin: auto 0;
+    }
+
+
+
+     #hamburger.expanded {
+        transform: rotate(90deg);
+     }
+     
+     #burger-con {
+        display: none;
+     }
+     
+     #burger-con.slide-toggle {
+        display: grid;
+    }
+
+     menu {
+        list-style-type: none;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: stretch;        
+    }
+    
+    menu li {
+        padding-bottom: 5px; 
+        display: grid;
+        margin-left: 0;
+        justify-content: stretch;
+    }
+/* hero */
+
+.heroOverlay { padding: 250px 0;}
+
+/* mission */
+
+#missionImg { height: 50vh;}
+
+
+/* *Contact Form* */
+
+
+#contactSpace.grid-con { 
+    display: block;
+}
+
+.contactCon.boxBackCon { background: none;}
+
+.contactCon {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-column-gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm h2, #contactForm div { display: none;} 
+
+
+
+#contactForm div a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 20px;
+}
+
+#contactForm form textarea {
+    height: 15vh;
+    margin-bottom: 25px;
+}
+
+#formImg {
+    height: fit-content;
+    order: -1;
+    padding: 0;
+}
+
+#contactOverlay {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+#contactOverlay h2 {
+    width: 75vw;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+#contactOverlay div {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#contactOverlay div a {
+    text-align: left;
+}
+
+/* footer */
+
+#footerCon{
+    padding: 30vh 0 0 0;
+}
+#subCon {
+    margin-bottom:20vh;
+}
+#subCon form{
+    display: grid;
+    justify-content: center;
+}
+
+#subCon form input {
+    width: 75vw;
+    grid-row: 1/1
+}
+#subCon form button {
+    width: 20vw;
+    grid-row: 1/1
+}
+
+
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+}
