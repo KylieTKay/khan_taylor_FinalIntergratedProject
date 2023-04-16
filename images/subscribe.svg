@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1782.26 968">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efdb3a;
+      }
+
+      .cls-2 {
+        fill: #4db748;
+      }
+
+      .cls-3 {
+        fill: #f37423;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        isolation: isolate;
+        opacity: .31;
+      }
+
+      .cls-5 {
+        fill: #e22f2f;
+      }
+    </style>
+  </defs>
+  <g id="Group_54" data-name="Group 54">
+    <g id="Group_59" data-name="Group 59">
+      <path id="Background_STYLE:STYLE2_" data-name="Background STYLE:STYLE2 " class="cls-5" d="m.11,0h1782.15v967.97H.11V0Z"/>
+      <path id="Intersection_2-2" data-name="Intersection 2-2" class="cls-3" d="m912.73,606.85L255.36,0h1518.23l-657.37,606.85c-57.46,53.04-146.03,53.04-203.49,0Z"/>
+      <path id="Intersection_3" data-name="Intersection 3" class="cls-2" d="m273.32,967.97L977.83,258.44c58.37-58.79,153.34-59.12,212.13-.75.25.25.5.5.75.75l591.55,595.76v113.77H273.32Z"/>
+      <path id="Intersection_1" data-name="Intersection 1" class="cls-1" d="m912.73,606.85l-146.53-135.27,211.63-213.14c58.37-58.79,153.34-59.12,212.13-.75.25.25.5.5.75.75l144.87,145.9-219.36,202.5c-57.46,53.04-146.03,53.04-203.49,0h0Z"/>
+    </g>
+    <rect id="Background_STYLE:STYLE2_2" data-name="Background STYLE:STYLE2 2" class="cls-4" width="1782" height="968"/>
+  </g>
+</svg>
