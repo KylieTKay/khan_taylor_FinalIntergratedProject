@@ -41,16 +41,28 @@
             <div class="heroOverlay grid-con">
                 <h1 class="col-start-3 col-end-5 m-col-start-7 m-col-end-13">&#161; Classic Flavours,</h1>
                 <h1 class="col-start-3 col-end-5 m-col-start-8 m-col-end-12"> New Look !</h1>
+                <button class="boxIcon col-start-3 col-end-4 m-col-start-9 m-col-end-11" id="open-video"><i class="fa-solid fa-play"></i></button>
+                <p class="box boxOverlayCon col-start-3 col-end-4 m-col-start-9 m-col-end-11">Replay</p>
             </div>
         </section>
         <!-- Backdrop -->
         <section class="backdrop BGI">
             <!-- advert -->
             <section class="advertCon grid-con">
-                <div class="adQuote col-span-full m-col-start-2 m-col-end-9">
-                    <h2>[Tag-line or Quote<br>Here]</h2>
+
+                <!-- <video class="col-span-full m-col-startw-2 m-col-end-12" width="970" height="705" controls>
+                    <source src="images/Khan_Taylor_Fip-Infomercial.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> -->
+                <div class="col-span-full m-col-span-full" id="video-modal">
+                  <div id="video-container">
+                    <video controls>
+                      <source src="images/Khan_Taylor_Fip-Infomercial.mp4" type="video/mp4">
+                    </video>
+                    <button id="close-video">Close</button>
+                  </div>
                 </div>
-                <img src="https://placeholder.pics/svg/970x706/FFFFFF/000000-FFFFFF/commercial%20here" alt="" class="boxImgCon col-span-full m-col-start-2 m-col-end-12">
+            
             </section>
             <!-- info -->
             <section class="quatroInfoCon boxOverlayCon grid-con">
