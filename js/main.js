@@ -14,6 +14,19 @@ btn4 = document.querySelector("#flavour4"),
 flavour5Info = document.querySelector("#flavour5Info"),
 btn5 = document.querySelector("#flavour5");
 
+const openVideoButton = document.getElementById('open-video');
+const closeVideoButton = document.getElementById('close-video');
+const videoModal = document.getElementById('video-modal');
+
+openVideoButton.addEventListener('click', function() {
+  videoModal.style.display = 'block';
+});
+
+closeVideoButton.addEventListener('click', function() {
+  videoModal.style.display = 'none';
+});
+
+
 (function(){
 	"use strict";
 	
